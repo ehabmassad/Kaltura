@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public enum KalturaKdtDictionary {
+					// xls action keyword , java class, function in java class
 	
 REGISTER_USER1("register user and check you got relevant id", "KalturaRestTests", "registerUserAndCheckUsername"),
 REGISTER_USER2("register Exist user and check response message", "KalturaRestTests", "registerExistUserAndCheckErrorMessage"),

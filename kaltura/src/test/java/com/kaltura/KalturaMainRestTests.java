@@ -21,7 +21,7 @@ public class KalturaMainRestTests extends BaseRestAPITest {
 
 	@Test(dataProvider = "ExcelFileLoader", enabled = true)
 	@DataProviderParams(sheet = "KalTests", area = "Details")
-	public void getTasksInfoWithinSpicificPerioud(Hashtable<String, String> data)
+	public void runKalturaTests(Hashtable<String, String> data)
 			throws JsonProcessingException, IOException, JSONException, org.codehaus.jettison.json.JSONException,
 			IllegalAccessException, IllegalArgumentException, InvocationTargetException {
 		 rowData = data;
